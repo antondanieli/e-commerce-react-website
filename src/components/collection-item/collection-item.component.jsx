@@ -25,14 +25,14 @@ return (
         Add to cart
     </CustomButton>
     </div>
-    );
+);
 };
 
 const mapDispatchToProps = dispatch => ({
-    addItem: item => dispatch(addItem(item))
+addItem: item => dispatch(addItem(item))
 });
 
 export default connect(
-    null,
-    mapDispatchToProps
+null,
+mapDispatchToProps
 )(CollectionItem);
